@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- toolBar-->
+    <color name="colorPrimary">#ffce3d3a</color>
+    <!-- 状态栏 （同时设置底部颜色） -->
+    <color name="colorPrimaryDark">#ffce3d3a</color>
+    <!-- 文字的颜色-->
+    <color name="colorAccent">#1f1f1f</color>
+
+
+    <color name="tabSelectedTextColor" >#ffce3d3a</color>
+
+
+
+
+
+</resources>

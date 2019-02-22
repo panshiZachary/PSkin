@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/t_window_bg">
+    <!-- 测试换肤图片-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@drawable/toolbar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="个性换肤"
+        android:onClick="skinSelect"/>
+
+    <!--  测试View pager 和fragment 切换-->
+    <com.adyun.pskin.widget.MyTabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        app:tabIndicatorColor="@color/tabSelectedTextColor"
+        app:tabTextColor="@color/tab_selecctor"
+        >
+    </com.adyun.pskin.widget.MyTabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+
+
+
+</LinearLayout>

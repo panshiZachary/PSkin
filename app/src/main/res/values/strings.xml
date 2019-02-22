@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PSkin</string>
+
+    <string name="video">视频</string>
+    <string name="music">音乐</string>
+    <string name="radio">电台</string>
+</resources>
